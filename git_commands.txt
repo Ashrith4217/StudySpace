@@ -1,0 +1,81 @@
+
+GIT COMMAND DOCUMENTATION
+Project: StudySpace
+
+1. mkdir StudySpace
+Creates the project folder.
+
+2. cd StudySpace
+Enters the project folder.
+
+3. git init
+Initializes a Git repository.
+
+4. git branch -M main
+Renames the current branch to main.
+
+5. git add .
+Stages all project files.
+
+6. git commit -m "Initial StudySpace project"
+Creates the initial commit.
+
+7. git add index.html
+Stages the modified homepage.
+
+8. git commit -m "Update StudySpace homepage"
+Records homepage changes.
+
+9. git switch -c feature
+Creates and switches to the feature branch.
+
+10. git add about.html
+Stages changes to about.html.
+
+11. git commit -m "Add StudySpace features"
+Commits feature branch changes.
+
+12. git switch main
+Switches back to main.
+
+13. git merge --no-ff feature -m "Merge feature into main"
+Merges feature into main.
+
+14. git log --oneline --graph --decorate --all
+Displays commit history and branch structure.
+
+15. git add .gitignore
+Stages the ignore configuration.
+
+16. git commit -m "Add gitignore rules"
+Commits ignore rules.
+
+17. git check-ignore -v debug.log temp/test.txt
+Verifies ignored files.
+
+18. git add temporary.txt
+Stages the temporary file.
+
+19. git commit -m "Add temporary file"
+Commits the temporary file.
+
+20. git revert --no-edit HEAD
+Reverses the latest commit while preserving history.
+
+21. git remote add origin URL
+Connects the local repository to GitHub.
+
+22. git push -u origin main
+Uploads the main branch.
+
+23. git push -u origin feature
+Uploads the feature branch.
+
+24. git remote -v
+Displays remote repository URLs.
+
+25. git status
+Displays repository status.
+
+26. git branch -a
+Displays local and remote branches.
